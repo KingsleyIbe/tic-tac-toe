@@ -1,9 +1,10 @@
 import React from 'react';
+import Game from './component/Game';
 
 function App() {
   return (
-    <div className="App bg-[#000] text-[#fff]">
-      <h1>Introducing Tic Tac Toe</h1>
+    <div className="App">
+      <Game />
     </div>
   );
 }
